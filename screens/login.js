@@ -150,7 +150,7 @@ export default function Login({ navigation }) {
             {/* ()=>navigation.navigate('home')} */}
           </View>
           {/* Trial */}
-          <Pressable
+          {/* <Pressable
             onPress={() => {
               navigation.navigate("home");
               console.log("clicked");
@@ -184,7 +184,7 @@ export default function Login({ navigation }) {
           >
             <Text>Product Details</Text>
           </Pressable>
-          {/* end */}
+          end */}
           <Pressable
             onPress={handleSubmit}
             style={[styles.signInBtn, { width: width - 50 }]}
